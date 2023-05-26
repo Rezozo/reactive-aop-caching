@@ -1,10 +1,24 @@
 
-version: "3.6"
+# REDIS
 
-services:
-  redis:
-    image: redis
-    ports:
-      - "6379:6379"
-    environment:
-      - ALLOW_EMPTY_PASSWORD=yes
+#version: "3.6"
+#
+#services:
+#  redis:
+#    image: redis
+#    ports:
+#      - "6379:6379"
+#    environment:
+#      - ALLOW_EMPTY_PASSWORD=yes
+
+# MEMCACHED
+
+#version: "3"
+#
+#services:
+#  mymemcached:
+#    image: memcached
+#    command:
+#      - memcached
+#    ports:
+#      - 11211:11211
